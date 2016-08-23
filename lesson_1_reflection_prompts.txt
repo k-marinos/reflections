@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Being able to be pointed at the exact lines that differences are is a huge
+time saver.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    After having a stable version of your project saved, experimenting with new
+features is risk free no matter how extensive the changes are. Sharing your files
+with others is also safe since you can always revert to a previous version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commits allow you to organise versions in a logical way and make it
+easier to track changes or revert to an older version. However, there is the
+danger of not committing often enough or more often than you should which
+reduces the effectiveness of version control.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    For projects that contain multiple files that are linked, Git is the way to
+go. Single file commits would just add extra unnecessary step into matching
+previous versions of files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log I can look through all the commits until i find the one I'm
+interested in. Then, with git diff i can compare the differences in the old
+version and the new to find out exactly what changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    There is no fear in testing different ideas no matter how much they change
+the code or even break it completely. Reverting back to the latest stable version
+doesn't take much time.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use git with all my projects so i get comfortable using it
+no matter the size of the project.
