@@ -11,13 +11,28 @@ commiting files to the repository.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Using git diff and git diff --staged , you can clearly see all the changes you want commited and make a decision.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are helpful when experimental builds are being developed or personal changes are being worked on, not yet
+to be shared with the rest of the team.
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams help with a clearer view of branches and reachability
+of every commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When two branches merge, changes from both are added to the commit as long as there are no conflicts. It is represented
+in that way because it contains elements from both parent
+commits.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+When there are no conflicts there is no need for supervision.
+In case it isn't clear what changes should be commited a manual commit will always be more consistent.
